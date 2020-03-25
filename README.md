@@ -78,6 +78,8 @@
 		
 编译方法：
 
+	cd /home
+	git clonse https://github.com/bigbao9494/cpp_go_prj.git
 	所有平台是同一套代码，不同平台会编译不同个别文件(主要是栈切换的asm文件)
 	编译需要放到/home目录中(因为直接使用Makefile依赖了路径)，完整的目录结构如下：
 		/home/cpp_go_prj/cpp_go/src           cpp.a源文件
