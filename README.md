@@ -82,7 +82,7 @@
 	git clone https://github.com/bigbao9494/cpp_go_prj.git
 	所有平台是同一套代码，不同平台会编译不同个别文件(主要是栈切换的asm文件)
 	编译需要放到/home目录中(因为直接使用Makefile依赖了路径)，完整的目录结构如下：
-		/home/cpp_go_prj/cpp_go/src           cpp.a源文件
+		/home/cpp_go_prj/cpp_go/src           cpp_go.a源文件
 		/home/cpp_go_prj/test_cpp_go/src      测试应用程序源文件
 		
 	cpp_go的所有makefile相关文件都和cpp_go/src同一目录
