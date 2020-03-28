@@ -123,7 +123,7 @@
 		make CONFIG=Release -f arm_release_Makefile
 		生成文件在/home/cpp_go_prj/test_cpp_go/Release目录下
 	-----------------------------------windows_x64-------------------------------------------
-	windows版本使用VS工程，没有做成CMAKE编译，所以单独上传一个完整的VS工程
+	windows版本使用VS工程，没有做成CMAKE编译，所以单独上传一个完整的VS工程,连接https://github.com/bigbao9494/cpp_go_prj/commit/334cb52a105eeff347e919bcdebb2b4710212cae
 
 示例代码(更多的测试在test_cpp_go/src中)：
 ```cpp
